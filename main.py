@@ -14,7 +14,7 @@ if __name__ == '__main__'
     import pandas as pd
     import numpy as np
     arr=np.array([1, 2, 4, 5, 6, 9, 10])
-    df=pd.DataFrame({'colum1': arr})
+    df=pd.DataFrame({'colum1': arr, 'column2': np.array([100, 200, 130, 144, 420, 530, 1000])})
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
